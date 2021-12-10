@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/studenttablelayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1,2">
+
+    <TableRow android:id="@+id/LineTable">// FOR LINING
+
+        <TextView
+            android:id="@+id/JustLine"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:layout_gravity="right"
+            android:text="--------------------------"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/AnotherLine"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:text="----------------------------------"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+    </TableRow>
+
+
+
+    <TableRow android:id="@+id/Subject_OfferingNo">//Table 2
+
+        <TextView
+            android:id="@+id/Dis_SubOfferingNo"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Offering Number :
+"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/In_SubOfferingNo"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/Subject_SubjCode">//Table 3
+
+        <TextView
+            android:id="@+id/Dis_SubSubjCode"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Subject Code :"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/In_SubSubjCode"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/Subject_Schedule">//Table 4
+
+        <TextView
+            android:id="@+id/Dis_SubSchedule"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Schedule :"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/In_SubSchedule"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/Subject_Room">//Table 5
+
+        <TextView
+            android:id="@+id/Dis_SubRoom"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Room ID :"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/In_SubRoom"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/Subject_TeacherID">//Table 6
+
+        <TextView
+            android:id="@+id/Dis_SubTeacherID"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Teacher ID :"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/In_SubTeacherID"
+            android:layout_width="220dp"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/Subject_EnrolmentID">//Table 6
+
+        <TextView
+            android:id="@+id/Dis_SubEnrolmentID"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Enrollment ID :"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/In_SubEnrolmentID"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/Subject_StudentID">//Table 6
+
+        <TextView
+            android:id="@+id/Dis_SubStudentID"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Student ID :"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/In_SubStudentID"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/Subject_Semester">//Table 6
+
+        <TextView
+            android:id="@+id/Dis_SubSemester"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Semester :"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/In_SubSemester"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/Subject_AcademicYear">// Table1
+
+        <TextView
+            android:id="@+id/Dis_SubAcademicYear"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Academic Year :"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/In_SubAcademicYear"
+            android:layout_width="73dp"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+</TableLayout>
